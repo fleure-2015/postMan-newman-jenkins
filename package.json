@@ -1,0 +1,16 @@
+{
+  "name": "tests",
+  "version": "1.0.0",
+  "description": "Project for storing PostMan test",
+  "directories":{
+	  "test":"tests"
+  }
+  "scripts": {
+    "api-tests": "newman run tests/Collection3.json"
+  },
+  "author": "ZERKA Fouzia",
+  "license": "ISC",
+  "dependencies": {
+    "newman": "^6.0.0"
+  }
+}
